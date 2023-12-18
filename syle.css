@@ -25,6 +25,7 @@
 @media screen and (max-width: 462px) {
     .saludo {
       top: 3vh;
+      left: auto; 
     }
   }
 
