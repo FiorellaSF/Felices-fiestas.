@@ -9,6 +9,7 @@
       height: 100vh;
       margin: 0;
       background-image: url('./img/wallpaper.jpg');
+      background-repeat: no-repeat;
       background-size: cover;
     }
     .saludo {
@@ -21,7 +22,11 @@
   margin: 20px;
   text-shadow: 2px 2px 4px rgba(247, 23, 23, 0.884);
 }
-
+@media screen and (max-width: 462px) {
+    .saludo {
+      top: 3vh;
+    }
+  }
 
     .open-button {
       
@@ -92,6 +97,7 @@
 
     .window-container {
       position: relative;
+      background-color: #0b3d06;
       width: 45%;
       height: auto;
       padding: 1.5rem;
